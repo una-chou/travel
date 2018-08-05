@@ -59,12 +59,12 @@ export default {
     this.lastCity = this.city
     this.getHomeInfo()
   },
-  activated() {
-    if (this.lastCity !=== this.city) {
+  activated () {
+    if (this.lastCity !== this.city) {
       this.lastCity = this.city
       this.getHomeInfo()
     }
-  },
+  }
 }
 </script>
 
